@@ -1,19 +1,28 @@
 # Liang Hu
 
-Backend and infrastructure engineer focused on observability, reliability, financial technology interoperability, and data systems.
+Computer science at Columbia University. I work on backend infrastructure, observability,
+reliability, and data systems.
 
-## Open Source
+[LinkedIn](https://www.linkedin.com/in/liang-hu/) |
+[Google Scholar](https://scholar.google.com/citations?user=2ddJaI4AAAAJ) |
+[ORCID](https://orcid.org/0009-0005-6930-236X)
 
-| Project | Contribution | Status |
+## Open-source highlights
+
+| Project | Contribution | Impact |
 | --- | --- | --- |
-| [OpenTelemetry JS](https://github.com/open-telemetry/opentelemetry-js) | [Fixed the ratio-1 trace ID boundary and added regression coverage](https://github.com/open-telemetry/opentelemetry-js/pull/6890) | Merged |
-| [OpenTelemetry JS](https://github.com/open-telemetry/opentelemetry-js) | [Removed an obsolete resource attribute-limit TODO after specification review](https://github.com/open-telemetry/opentelemetry-js/pull/6891) | Merged |
-| [Parallel Code](https://github.com/johannesjo/parallel-code) | [Unified modal handling through the shared dialog component](https://github.com/johannesjo/parallel-code/pull/215) | Merged |
-| [Parallel Code](https://github.com/johannesjo/parallel-code) | [Prevented close confirmation while repository status is loading](https://github.com/johannesjo/parallel-code/pull/216) | Merged |
+| [OpenTelemetry JS](https://github.com/open-telemetry/opentelemetry-js) | [Reject failed `SimpleSpanProcessor` flushes](https://github.com/open-telemetry/opentelemetry-js/pull/6897) | Preserves export failure signals and adds regression coverage |
+| [OpenTelemetry JS](https://github.com/open-telemetry/opentelemetry-js) | [Fix ratio-1 trace ID sampling](https://github.com/open-telemetry/opentelemetry-js/pull/6890) | Corrects the upper-bound sampling decision |
+| [OpenTelemetry JS](https://github.com/open-telemetry/opentelemetry-js) | [Install `libatomic` for benchmark jobs](https://github.com/open-telemetry/opentelemetry-js/pull/6917) | Restores Linux benchmark CI reliability |
+| [Polars](https://github.com/pola-rs/polars) | [Propagate the `bigidx` feature to `polars-plan`](https://github.com/pola-rs/polars/pull/28396) | Fixes a Rust feature-composition build failure |
+| [CAMARA Tooling](https://github.com/camaraproject/tooling) | [Validate `x-correlator` documentation](https://github.com/camaraproject/tooling/pull/376) | Adds specification-aware API lint rules and tests |
+| [Parallel Code](https://github.com/johannesjo/parallel-code) | [Stop polling hidden task panels](https://github.com/johannesjo/parallel-code/pull/226) | Reduces unnecessary repository status requests |
 
-## Current Focus
+## Engineering focus
 
-- OpenTelemetry SDK correctness, reliability, and documentation
-- FINOS FDC3 conformance and financial desktop interoperability
-- Telemetry testing and documentation in NASA Open MCT
-- Reliable analytics and data visualization infrastructure
+- OpenTelemetry SDK correctness and telemetry pipelines
+- Python and TypeScript backend infrastructure
+- API validation, CI reliability, and regression testing
+- Financial technology interoperability and data systems
+
+[View all merged pull requests](https://github.com/search?q=is%3Apr+author%3ALarryHu0217+is%3Amerged&type=pullrequests)
