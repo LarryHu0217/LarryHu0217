@@ -9,15 +9,14 @@ reliability, and data systems.
 
 ## Open-source highlights
 
-| Project | Contribution | Impact |
+| Project | Merged work | Impact |
 | --- | --- | --- |
-| [OpenTelemetry JS](https://github.com/open-telemetry/opentelemetry-js) | [Reject failed `SimpleSpanProcessor` flushes](https://github.com/open-telemetry/opentelemetry-js/pull/6897) | Preserves export failure signals and adds regression coverage |
-| [OpenTelemetry JS](https://github.com/open-telemetry/opentelemetry-js) | [Fix ratio-1 trace ID sampling](https://github.com/open-telemetry/opentelemetry-js/pull/6890) | Corrects the upper-bound sampling decision |
-| [OpenTelemetry JS](https://github.com/open-telemetry/opentelemetry-js) | [Install `libatomic` for benchmark jobs](https://github.com/open-telemetry/opentelemetry-js/pull/6917) | Restores Linux benchmark CI reliability |
-| [Polars](https://github.com/pola-rs/polars) | [Propagate the `bigidx` feature to `polars-plan`](https://github.com/pola-rs/polars/pull/28396) | Fixes a Rust feature-composition build failure |
-| [CAMARA Tooling](https://github.com/camaraproject/tooling) | [Validate `x-correlator` documentation](https://github.com/camaraproject/tooling/pull/376) | Adds specification-aware API lint rules and tests |
-| [FINOS FDC3](https://github.com/finos/FDC3) | [Conformance and discovery reliability](https://github.com/finos/FDC3/pull/1975) | Five merged improvements covering channel APIs, desktop-agent behavior, error cases, and normal-scenario logging |
-| [Parallel Code](https://github.com/johannesjo/parallel-code) | [Stop polling hidden task panels](https://github.com/johannesjo/parallel-code/pull/226) | Reduces unnecessary repository status requests |
+| [OpenTelemetry JS](https://github.com/open-telemetry/opentelemetry-js) | [Four SDK and CI contributions](https://github.com/open-telemetry/opentelemetry-js/pulls?q=is%3Apr+author%3ALarryHu0217+is%3Amerged) | Corrects trace sampling, preserves flush failures, adds per-call log flush timeouts, and stabilizes Linux benchmark CI |
+| [FastMCP](https://github.com/PrefectHQ/fastmcp) | [Preserve raw `CallToolResult` returns](https://github.com/PrefectHQ/fastmcp/pull/4587) | Protects protocol-level metadata and structured tool-result semantics |
+| [Polars](https://github.com/pola-rs/polars) | [Two merged Rust fixes](https://github.com/pola-rs/polars/pulls?q=is%3Apr+author%3ALarryHu0217+is%3Amerged) | Propagates the `bigidx` feature correctly and prevents a union-slice panic |
+| [CAMARA](https://github.com/camaraproject) | [Three API tooling and specification fixes](https://github.com/search?q=is%3Apr+author%3ALarryHu0217+is%3Amerged+org%3Acamaraproject&type=pullrequests) | Strengthens OpenAPI linting, discriminator handling, and notification-template conformance |
+| [FINOS FDC3](https://github.com/finos/FDC3) | [Eight conformance, documentation, and runtime fixes](https://github.com/finos/FDC3/pulls?q=is%3Apr+author%3ALarryHu0217+is%3Amerged) | Improves channel lifecycle behavior, error coverage, discovery reliability, and normal-scenario logging |
+| [Parallel Code](https://github.com/johannesjo/parallel-code) | [Six UX, accessibility, and reliability improvements](https://github.com/johannesjo/parallel-code/pulls?q=is%3Apr+author%3ALarryHu0217+is%3Amerged) | Reduces hidden polling and improves focus, motion, shortcuts, plan surfaces, and migration-notice behavior |
 
 ## Engineering focus
 
