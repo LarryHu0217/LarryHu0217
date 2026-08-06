@@ -1,7 +1,8 @@
 # Liang Hu
 
-Computer science at Columbia University. I work on backend infrastructure, observability,
-reliability, and data systems.
+Computer science at Columbia University. I build backend infrastructure, observability,
+reliability, and data systems, with recent work across telemetry SDKs, MCP/agent tooling,
+data engines, API conformance, and CI.
 
 [LinkedIn](https://www.linkedin.com/in/liang-hu/) |
 [Google Scholar](https://scholar.google.com/citations?user=2ddJaI4AAAAJ) |
@@ -9,14 +10,25 @@ reliability, and data systems.
 
 ## Open-source highlights
 
+37 external pull requests merged since July 2026.
+
 | Project | Merged work | Impact |
 | --- | --- | --- |
-| [OpenTelemetry JS](https://github.com/open-telemetry/opentelemetry-js) | [Four SDK and CI contributions](https://github.com/open-telemetry/opentelemetry-js/pulls?q=is%3Apr+author%3ALarryHu0217+is%3Amerged) | Corrects trace sampling, preserves flush failures, adds per-call log flush timeouts, and stabilizes Linux benchmark CI |
-| [FastMCP](https://github.com/PrefectHQ/fastmcp) | [Preserve raw `CallToolResult` returns](https://github.com/PrefectHQ/fastmcp/pull/4587) | Protects protocol-level metadata and structured tool-result semantics |
-| [Polars](https://github.com/pola-rs/polars) | [Two merged Rust fixes](https://github.com/pola-rs/polars/pulls?q=is%3Apr+author%3ALarryHu0217+is%3Amerged) | Propagates the `bigidx` feature correctly and prevents a union-slice panic |
-| [CAMARA](https://github.com/camaraproject) | [Three API tooling and specification fixes](https://github.com/search?q=is%3Apr+author%3ALarryHu0217+is%3Amerged+org%3Acamaraproject&type=pullrequests) | Strengthens OpenAPI linting, discriminator handling, and notification-template conformance |
+| [OpenTelemetry](https://github.com/open-telemetry) | [Seven JavaScript and Java contributions](https://github.com/search?q=is%3Apr+author%3ALarryHu0217+is%3Amerged+org%3Aopen-telemetry&type=pullrequests) | Corrects sampling and flush behavior, adds per-call timeout controls, stabilizes benchmark CI, and deprecates the OpenCensus shim API |
+| [Parallel Code](https://github.com/johannesjo/parallel-code) | [Thirteen merged improvements](https://github.com/johannesjo/parallel-code/pulls?q=is%3Apr+author%3ALarryHu0217+is%3Amerged) | Improves accessibility, review workflows, task coverage, UI reliability, and migration behavior |
 | [FINOS FDC3](https://github.com/finos/FDC3) | [Eight conformance, documentation, and runtime fixes](https://github.com/finos/FDC3/pulls?q=is%3Apr+author%3ALarryHu0217+is%3Amerged) | Improves channel lifecycle behavior, error coverage, discovery reliability, and normal-scenario logging |
-| [Parallel Code](https://github.com/johannesjo/parallel-code) | [Six UX, accessibility, and reliability improvements](https://github.com/johannesjo/parallel-code/pulls?q=is%3Apr+author%3ALarryHu0217+is%3Amerged) | Reduces hidden polling and improves focus, motion, shortcuts, plan surfaces, and migration-notice behavior |
+| [CAMARA](https://github.com/camaraproject) | [Four API tooling and specification fixes](https://github.com/search?q=is%3Apr+author%3ALarryHu0217+is%3Amerged+org%3Acamaraproject&type=pullrequests) | Strengthens OpenAPI linting, discriminator handling, notification conformance, and generated artifact stability |
+| [Polars](https://github.com/pola-rs/polars) | [Two merged Rust fixes](https://github.com/pola-rs/polars/pulls?q=is%3Apr+author%3ALarryHu0217+is%3Amerged) | Propagates the `bigidx` feature correctly and prevents a union-slice panic |
+| [FastMCP](https://github.com/PrefectHQ/fastmcp) | [Preserve raw `CallToolResult` returns](https://github.com/PrefectHQ/fastmcp/pull/4587) | Protects protocol-level metadata and structured tool-result semantics |
+| [Apache Arrow](https://github.com/apache/arrow) | [Modernize Archery version handling](https://github.com/apache/arrow/pull/50669) | Removes reliance on a private `setuptools_scm` API and preserves release tooling compatibility |
+| [OpenInference](https://github.com/Arize-ai/openinference) | [Fix Bedrock ESM type exports](https://github.com/Arize-ai/openinference/pull/3463) | Prevents AWS SDK type-only imports from becoming runtime ESM dependencies |
+
+## Recent merges
+
+- [OpenTelemetry Java #8674](https://github.com/open-telemetry/opentelemetry-java/pull/8674) - deprecated the OpenCensus shim public API.
+- [OpenInference #3463](https://github.com/Arize-ai/openinference/pull/3463) - fixed Bedrock ESM runtime imports.
+- [OpenTelemetry JS #6929](https://github.com/open-telemetry/opentelemetry-js/pull/6929) - added per-call trace force-flush timeouts.
+- [Apache Arrow #50669](https://github.com/apache/arrow/pull/50669) - removed private `setuptools_scm` API usage from Archery.
 
 ## Engineering focus
 
