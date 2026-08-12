@@ -10,7 +10,7 @@ data engines, API conformance, and CI.
 
 ## Open-source highlights
 
-37 external pull requests merged since July 2026.
+39 external pull requests merged since July 2026.
 
 | Project | Merged work | Impact |
 | --- | --- | --- |
@@ -21,12 +21,13 @@ data engines, API conformance, and CI.
 | [Polars](https://github.com/pola-rs/polars) | [Two merged Rust fixes](https://github.com/pola-rs/polars/pulls?q=is%3Apr+author%3ALarryHu0217+is%3Amerged) | Propagates the `bigidx` feature correctly and prevents a union-slice panic |
 | [FastMCP](https://github.com/PrefectHQ/fastmcp) | [Preserve raw `CallToolResult` returns](https://github.com/PrefectHQ/fastmcp/pull/4587) | Protects protocol-level metadata and structured tool-result semantics |
 | [Apache Arrow](https://github.com/apache/arrow) | [Modernize Archery version handling](https://github.com/apache/arrow/pull/50669) | Removes reliance on a private `setuptools_scm` API and preserves release tooling compatibility |
-| [OpenInference](https://github.com/Arize-ai/openinference) | [Fix Bedrock ESM type exports](https://github.com/Arize-ai/openinference/pull/3463) | Prevents AWS SDK type-only imports from becoming runtime ESM dependencies |
+| [OpenInference](https://github.com/Arize-ai/openinference) | [Two merged JavaScript and AWS SDK fixes](https://github.com/search?q=is%3Apr+author%3ALarryHu0217+is%3Amerged+repo%3AArize-ai%2Fopeninference&type=pullrequests) | Enforces type-aware lint rules and prevents AWS SDK type-only imports from becoming runtime ESM dependencies |
 
 ## Recent merges
 
 - [OpenTelemetry Java #8674](https://github.com/open-telemetry/opentelemetry-java/pull/8674) - deprecated the OpenCensus shim public API.
 - [OpenInference #3463](https://github.com/Arize-ai/openinference/pull/3463) - fixed Bedrock ESM runtime imports.
+- [OpenInference #3532](https://github.com/Arize-ai/openinference/pull/3532) - enforced the remaining type-aware JavaScript lint rules.
 - [OpenTelemetry JS #6929](https://github.com/open-telemetry/opentelemetry-js/pull/6929) - added per-call trace force-flush timeouts.
 - [Apache Arrow #50669](https://github.com/apache/arrow/pull/50669) - removed private `setuptools_scm` API usage from Archery.
 
