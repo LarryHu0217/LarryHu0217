@@ -10,11 +10,11 @@ data engines, API conformance, and CI.
 
 ## Open-source highlights
 
-39 external pull requests merged since July 2026.
+40 external pull requests merged since July 2026.
 
 | Project | Merged work | Impact |
 | --- | --- | --- |
-| [OpenTelemetry](https://github.com/open-telemetry) | [Seven JavaScript and Java contributions](https://github.com/search?q=is%3Apr+author%3ALarryHu0217+is%3Amerged+org%3Aopen-telemetry&type=pullrequests) | Corrects sampling and flush behavior, adds per-call timeout controls, stabilizes benchmark CI, and deprecates the OpenCensus shim API |
+| [OpenTelemetry](https://github.com/open-telemetry) | [Eight JavaScript, Java, and documentation contributions](https://github.com/search?q=is%3Apr+author%3ALarryHu0217+is%3Amerged+org%3Aopen-telemetry&type=pullrequests) | Corrects sampling and flush behavior, adds per-call timeout controls, documents exporter self-monitoring metrics, stabilizes benchmark CI, and deprecates the OpenCensus shim API |
 | [Parallel Code](https://github.com/johannesjo/parallel-code) | [Thirteen merged improvements](https://github.com/johannesjo/parallel-code/pulls?q=is%3Apr+author%3ALarryHu0217+is%3Amerged) | Improves accessibility, review workflows, task coverage, UI reliability, and migration behavior |
 | [FINOS FDC3](https://github.com/finos/FDC3) | [Eight conformance, documentation, and runtime fixes](https://github.com/finos/FDC3/pulls?q=is%3Apr+author%3ALarryHu0217+is%3Amerged) | Improves channel lifecycle behavior, error coverage, discovery reliability, and normal-scenario logging |
 | [CAMARA](https://github.com/camaraproject) | [Four API tooling and specification fixes](https://github.com/search?q=is%3Apr+author%3ALarryHu0217+is%3Amerged+org%3Acamaraproject&type=pullrequests) | Strengthens OpenAPI linting, discriminator handling, notification conformance, and generated artifact stability |
@@ -26,6 +26,7 @@ data engines, API conformance, and CI.
 ## Recent merges
 
 - [OpenTelemetry Java #8674](https://github.com/open-telemetry/opentelemetry-java/pull/8674) - deprecated the OpenCensus shim public API.
+- [OpenTelemetry.io #10713](https://github.com/open-telemetry/opentelemetry.io/pull/10713) - documented Java exporter self-monitoring metrics.
 - [OpenInference #3463](https://github.com/Arize-ai/openinference/pull/3463) - fixed Bedrock ESM runtime imports.
 - [OpenInference #3532](https://github.com/Arize-ai/openinference/pull/3532) - enforced the remaining type-aware JavaScript lint rules.
 - [OpenTelemetry JS #6929](https://github.com/open-telemetry/opentelemetry-js/pull/6929) - added per-call trace force-flush timeouts.
