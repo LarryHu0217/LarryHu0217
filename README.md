@@ -25,6 +25,7 @@ data engines, API conformance, and CI.
 
 ## Recent merges
 
+- [OpenTelemetry JS #6997](https://github.com/open-telemetry/opentelemetry-js/pull/6997) - incorporated and extended my `headers_list` exporter work from [#6955](https://github.com/open-telemetry/opentelemetry-js/pull/6955) across all log, metric, and trace exporter paths.
 - [OpenTelemetry Java #8674](https://github.com/open-telemetry/opentelemetry-java/pull/8674) - deprecated the OpenCensus shim public API.
 - [OpenTelemetry.io #10713](https://github.com/open-telemetry/opentelemetry.io/pull/10713) - documented Java exporter self-monitoring metrics.
 - [OpenInference #3463](https://github.com/Arize-ai/openinference/pull/3463) - fixed Bedrock ESM runtime imports.
