@@ -10,7 +10,7 @@ data engines, API conformance, and CI.
 
 ## Open-source highlights
 
-43 external pull requests merged since July 2026.
+44 external pull requests merged since July 2026.
 
 | Project | Merged work | Impact |
 | --- | --- | --- |
@@ -21,7 +21,7 @@ data engines, API conformance, and CI.
 | [Polars](https://github.com/pola-rs/polars) | [Two merged Rust fixes](https://github.com/pola-rs/polars/pulls?q=is%3Apr+author%3ALarryHu0217+is%3Amerged) | Propagates the `bigidx` feature correctly and prevents a union-slice panic |
 | [FastMCP](https://github.com/PrefectHQ/fastmcp) | [Preserve raw `CallToolResult` returns](https://github.com/PrefectHQ/fastmcp/pull/4587) | Protects protocol-level metadata and structured tool-result semantics |
 | [Apache Arrow](https://github.com/apache/arrow) | [Modernize Archery version handling](https://github.com/apache/arrow/pull/50669) | Removes reliance on a private `setuptools_scm` API and preserves release tooling compatibility |
-| [OpenInference](https://github.com/Arize-ai/openinference) | [Two merged JavaScript and AWS SDK fixes](https://github.com/search?q=is%3Apr+author%3ALarryHu0217+is%3Amerged+repo%3AArize-ai%2Fopeninference&type=pullrequests) | Enforces type-aware lint rules and prevents AWS SDK type-only imports from becoming runtime ESM dependencies |
+| [OpenInference](https://github.com/Arize-ai/openinference) | [Four merged JavaScript and AWS SDK fixes](https://github.com/search?q=is%3Apr+author%3ALarryHu0217+is%3Amerged+repo%3AArize-ai%2Fopeninference&type=pullrequests) | Enforces type-aware lint rules and prevents AWS SDK type-only imports from becoming runtime ESM dependencies |
 
 ## Recent merges
 
@@ -30,6 +30,8 @@ data engines, API conformance, and CI.
 - [OpenTelemetry.io #10713](https://github.com/open-telemetry/opentelemetry.io/pull/10713) - documented Java exporter self-monitoring metrics.
 - [OpenInference #3463](https://github.com/Arize-ai/openinference/pull/3463) - fixed Bedrock ESM runtime imports.
 - [OpenInference #3532](https://github.com/Arize-ai/openinference/pull/3532) - enforced the remaining type-aware JavaScript lint rules.
+- [OpenInference #3566](https://github.com/Arize-ai/openinference/pull/3566) - enforced safe type assertions across the JavaScript packages.
+- [OpenInference #3561](https://github.com/Arize-ai/openinference/pull/3561) - enforced promise and method lint rules across the JavaScript packages.
 - [Parallel Code #257](https://github.com/johannesjo/parallel-code/pull/257) - increased terminal wheel-scroll sensitivity across desktop and remote terminals.
 - [Parallel Code #245](https://github.com/johannesjo/parallel-code/pull/245) - added an opt-in terminal screen-reader mode.
 - [TransformerLens #1664](https://github.com/TransformerLensOrg/TransformerLens/pull/1664) - exposed BERT token-type embeddings through `TransformerBridge`.
