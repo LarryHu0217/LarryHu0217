@@ -10,7 +10,7 @@ data engines, API conformance, and CI.
 
 ## Open-source highlights
 
-45 external pull requests merged since July 2026.
+46 external pull requests merged since July 2026.
 
 | Project | Merged work | Impact |
 | --- | --- | --- |
@@ -38,6 +38,7 @@ data engines, API conformance, and CI.
 - [TransformerLens #1664](https://github.com/TransformerLensOrg/TransformerLens/pull/1664) - exposed BERT token-type embeddings through `TransformerBridge`.
 - [OpenTelemetry JS #6929](https://github.com/open-telemetry/opentelemetry-js/pull/6929) - added per-call trace force-flush timeouts.
 - [Apache Arrow #50669](https://github.com/apache/arrow/pull/50669) - removed private `setuptools_scm` API usage from Archery.
+- [OpenTelemetry JS #6920](https://github.com/open-telemetry/opentelemetry-js/pull/6920) - added a weekly documentation-test CI schedule.
 
 ## Engineering focus
 
