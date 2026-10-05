@@ -4,6 +4,7 @@ authors:
   - Liang Hu
   - Yinru Shen
 year: 2026
+category: journal
 sort_date: "2026-10-05"
 venue: Finance Research Letters
 status: accepted
@@ -33,4 +34,3 @@ bibtex: |
 <div class="research-facts"><div><span class="fact-value">2013–2025</span><span class="fact-label">2013Q2 to 2025Q4</span></div><div><span class="fact-value">500</span><span class="fact-label">Largest reported portfolios per quarter</span></div><div><span class="fact-value">25,500</span><span class="fact-label">Manager-quarter observations</span></div></div>
 
 The analysis distinguishes concentration within a portfolio from similarity across portfolios. The results are descriptive associations for reported long positions, rather than estimates of causal effects or institutions' complete balance-sheet exposures.
-

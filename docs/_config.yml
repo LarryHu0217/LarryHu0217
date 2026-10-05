@@ -1,8 +1,9 @@
 title: Liang Hu
-description: Research publications and author manuscripts by Liang Hu.
+description: Liang Hu's research in applied machine learning, financial technology, and reliable data systems. Publications, accepted conference papers, preprints, and talks.
 url: https://larryhu0217.github.io
 baseurl: /LarryHu0217
 lang: en
+timezone: America/New_York
 markdown: kramdown
 theme: null
 collections:
@@ -18,4 +19,3 @@ defaults:
 exclude:
   - Gemfile
   - Gemfile.lock
-

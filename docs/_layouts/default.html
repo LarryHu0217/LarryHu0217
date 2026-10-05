@@ -6,23 +6,42 @@
   <title>{% if page.title %}{{ page.title | escape }} | {% endif %}Liang Hu</title>
   <meta name="description" content="{{ page.summary | default: site.description | escape }}">
   <link rel="canonical" href="{{ page.url | absolute_url }}">
-  <link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}">
-  <script defer src="{{ '/assets/site.js' | relative_url }}"></script>
+  <meta name="theme-color" content="#fafbf9">
+  <link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+  <script defer src="{{ '/assets/site.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
-  <div class="site-shell">
-    <header class="site-header">
-      <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="Liang Hu, publications home"><span class="monogram" aria-hidden="true">LH</span><span>Liang Hu<span class="wordmark-subtitle">Research &amp; publications</span></span></a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="{{ '/' | relative_url }}">Liang Hu<span>Research &amp; publications</span></a>
       <nav aria-label="Main navigation">
         <a href="{{ '/' | relative_url }}#publications">Publications</a>
-        <a href="https://scholar.google.com/citations?user=2ddJaI4AAAAJ">Scholar <span aria-hidden="true">↗</span></a>
-        <a href="https://orcid.org/0009-0005-6930-236X">ORCID <span aria-hidden="true">↗</span></a>
+        <a href="{{ '/' | relative_url }}#talks">Talks</a>
+        <a href="https://github.com/LarryHu0217">GitHub <span aria-hidden="true">↗</span></a>
       </nav>
-    </header>
-    <main id="main">{{ content }}</main>
-    <footer class="site-footer"><span>© {{ site.time | date: '%Y' }} Liang Hu</span><span>Author manuscripts &amp; publication records</span><a href="https://github.com/LarryHu0217">GitHub ↗</a></footer>
+    </div>
+  </header>
+  <div class="site-shell">
+    <aside class="profile" aria-label="About Liang Hu">
+      <a class="profile-mark" href="{{ '/' | relative_url }}" aria-label="Liang Hu home">LH</a>
+      <p class="profile-name">Liang <span>(Larry)</span> Hu</p>
+      <p class="profile-role"><span>Applied machine learning</span><span>Financial technology</span><span>Reliable data systems</span></p>
+      <p class="profile-location">New York, United States</p>
+      <div class="profile-education"><span class="profile-label">Education</span><p><span>Columbia University</span><span>M.S. Computer Science, 2023</span><span>B.S. Computer Science, 2022</span></p></div>
+      <ul class="profile-links">
+        <li><a href="mailto:lh3057@columbia.edu">Email <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://scholar.google.com/citations?user=2ddJaI4AAAAJ">Google Scholar <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://orcid.org/0009-0005-6930-236X">ORCID <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://www.linkedin.com/in/liang-hu/">LinkedIn <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://github.com/LarryHu0217">GitHub <span aria-hidden="true">↗</span></a></li>
+      </ul>
+    </aside>
+    <div class="content-column">
+      <main id="main">{{ content }}</main>
+      {% assign last_record = site.publications | sort: 'sort_date' | last %}
+      <footer class="site-footer"><span>© {{ site.time | date: '%Y' }} Liang Hu</span><span>Latest research record: {{ last_record.sort_date | date: '%B %-d, %Y' }}</span><a href="mailto:lh3057@columbia.edu">Contact</a></footer>
+    </div>
   </div>
 </body>
 </html>
-

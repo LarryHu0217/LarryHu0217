@@ -1,6 +1,6 @@
 # Liang Hu
 
-Computer science at Columbia University. I build backend infrastructure, observability,
+Columbia University computer science alumnus (B.S. 2022; M.S. 2023). I build backend infrastructure, observability,
 reliability, and data systems, with recent work across telemetry SDKs, MCP/agent tooling,
 data engines, API conformance, and CI.
 
@@ -10,9 +10,33 @@ data engines, API conformance, and CI.
 
 ## Research & publications
 
-[Publications & author manuscripts](https://larryhu0217.github.io/LarryHu0217/)
+[Research homepage: publications, manuscripts, and talks](https://larryhu0217.github.io/LarryHu0217/)
 
-- **Diversified but Crowded: Evidence from 13F Holdings** — Liang Hu and Yinru Shen. *Finance Research Letters*, accepted October 5, 2026. [Paper](https://larryhu0217.github.io/LarryHu0217/publications/diversified-but-crowded/) · [Author manuscript PDF](https://larryhu0217.github.io/LarryHu0217/publications/diversified-but-crowded/accepted-manuscript.pdf).
+Research records updated October 5, 2026. Accepted conference papers are included before proceedings publication; submitted manuscripts and preprints have separate status labels.
+
+### Journal articles
+
+- **[Diversified but Crowded: Evidence from 13F Holdings](https://larryhu0217.github.io/LarryHu0217/publications/diversified-but-crowded/)** — Liang Hu and Yinru Shen. *Finance Research Letters*, accepted October 5, 2026. [Author manuscript PDF](https://larryhu0217.github.io/LarryHu0217/publications/diversified-but-crowded/accepted-manuscript.pdf).
+- **[AI-Enhanced Financial NLP for Bitcoin Return Variation Prediction: Timestamp-Aware Evidence From Trump’s Tweets](https://larryhu0217.github.io/LarryHu0217/publications/bitcoin-financial-nlp/)** — IEEE Access, 14: 88558–88565. 2026; **Published**. [DOI](https://doi.org/10.1109/ACCESS.2026.3700831).
+- **[A predictive analytics approach for forecasting global stock index returns using deep learning techniques](https://larryhu0217.github.io/LarryHu0217/publications/global-stock-index-returns/)** — Decision Analytics Journal, 18: 100685. 2026; **Published**. [DOI](https://doi.org/10.1016/j.dajour.2026.100685). [Earlier preprint (2024)](https://www.researchsquare.com/article/rs-4818027/v1).
+
+### Conference papers
+
+- **[Auditing Search Before Content Verification: A Manifest-Gated Study of YouTube API Availability and Stability](https://larryhu0217.github.io/LarryHu0217/publications/youtube-api-search-audit/)** — IEEE CIC 2026, Application Track. 2026; **Accepted · Proceedings pending**. Conference: November 4–6, 2026; Milpitas / San Jose, California, USA.
+- **[Bridge Alerts for Institutional Portfolio Similarity Networks: An Explainable Monitoring Framework](https://larryhu0217.github.io/LarryHu0217/publications/portfolio-network-bridge-alerts/)** — IEEE ICTAI 2026, Full paper. 2026; **Accepted · Proceedings pending**. Conference: November 2–4, 2026; Boca Raton, Florida, USA.
+- **[An Explainable AI Audit of Search Visibility Signals in Shorts-Like Short-Form Videos](https://larryhu0217.github.io/LarryHu0217/publications/short-form-search-visibility/)** — IEEE ISAIA 2026. 2026; **Accepted · Proceedings pending**. Conference: October 9–10, 2026; Montclair, New Jersey, USA.
+- **[AI Decision Support for Sector-Conditioned Portfolio Similarity Monitoring in Financial Services](https://larryhu0217.github.io/LarryHu0217/publications/sector-conditioned-portfolio-monitoring/)** — ICAISF 2026. 2026; **Accepted · Proceedings pending**. Conference: July 24–25, 2026; Catania, Italy.
+- **[Robot learning-enhanced tree-based algorithms for kinodynamic motion planning: A comparative analysis](https://larryhu0217.github.io/LarryHu0217/publications/kinodynamic-motion-planning/)** — CONF-SEML 2024 · Applied and Computational Engineering, 76(1): 65–71. 2024; **Published**. [DOI](https://doi.org/10.54254/2755-2721/76/20240565).
+
+### Preprints
+
+- **[Conducting Mission-Critical Voice Experiments with Automated Speech Recognition and Crowdsourcing](https://larryhu0217.github.io/LarryHu0217/publications/mission-critical-voice/)** — arXiv, 2509.13724. 2025; **Preprint**. [DOI](https://doi.org/10.48550/arXiv.2509.13724). [arXiv](https://arxiv.org/abs/2509.13724).
+
+### Talks & presentations
+
+- **[AI-driven Financial Forecasting: Integrating Financial NLP, Deep Learning, and Timestamp-aware Market Analytics](https://larryhu0217.github.io/LarryHu0217/#talks)** — Liang Hu. World Virtual Conference on Artificial Intelligence, Blockchain & Cybersecurity. Scheduled October 6, 2026, online; 17:20–17:45 CEST / 11:20–11:45 New York. Listed as a presentation, separately from proceedings publications.
+
+New research records can be added through the [publication guide](PUBLICATIONS_GUIDE.md). The FRL paper page and PDF addresses remain stable.
 
 ## Open-source highlights
 

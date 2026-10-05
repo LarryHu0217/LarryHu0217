@@ -2,17 +2,17 @@
 layout: default
 ---
 <article class="paper-page">
-  <a class="back-link" href="{{ '/' | relative_url }}#publications">← All publications</a>
-  <div class="eyebrow">{{ page.venue | escape }} <span> / {{ page.year }}</span></div>
+  <a class="back-link" href="{{ '/' | relative_url }}#publications">← All publications &amp; manuscripts</a>
+  <p class="eyebrow">{{ page.venue | escape }} · {{ page.year }}</p>
   <h1 class="paper-title">{{ page.title | escape }}</h1>
-  <p class="paper-authors">{{ page.authors | join: ', ' | escape }}</p>
-  <div class="paper-meta"><span class="status status-{{ page.status | escape }}">{{ page.status_label | default: page.status | capitalize | escape }}</span><span>{{ page.version | escape }}</span>{% if page.accepted_date %}<span>Accepted {{ page.accepted_date | date: '%B %-d, %Y' }}</span>{% endif %}</div>
-  <div class="paper-actions">{% if page.pdf %}<a class="button button-primary" href="{{ page.pdf | relative_url }}">Read manuscript PDF <span aria-hidden="true">↗</span></a>{% endif %}{% if page.doi %}<a class="button" href="https://doi.org/{{ page.doi | escape }}">Published article ↗</a>{% endif %}{% if page.preprint_url %}<a class="button" href="{{ page.preprint_url | escape }}">Preprint ↗</a>{% endif %}{% if page.code_url %}<a class="button" href="{{ page.code_url | escape }}">Code ↗</a>{% endif %}</div>
+  <p class="paper-authors">{% if page.authors_display %}{{ page.authors_display | escape }}{% else %}{{ page.authors | join: ', ' | escape }}{% endif %}</p>
+  <div class="paper-meta"><span class="status status-{{ page.status | escape }}">{{ page.status_label | default: page.status | capitalize | escape }}</span>{% if page.version %}<span>{{ page.version | escape }}</span>{% endif %}{% if page.accepted_date %}<span>Accepted {{ page.accepted_date | date: '%B %-d, %Y' }}</span>{% endif %}</div>
+  {% if page.event_dates %}<p class="event-details">{{ page.event_dates | escape }}{% if page.event_location %} · {{ page.event_location | escape }}{% endif %}</p>{% endif %}
+  <div class="paper-actions">{% if page.pdf %}<a class="button button-primary" href="{{ page.pdf | relative_url }}">{{ page.pdf_label | default: 'Author manuscript PDF' | escape }} ↗</a>{% endif %}{% if page.pdf_url %}<a class="button button-primary" href="{{ page.pdf_url | escape }}">{{ page.pdf_label | default: 'PDF' | escape }} ↗</a>{% endif %}{% if page.doi %}<a class="button" href="https://doi.org/{{ page.doi | escape }}">DOI ↗</a>{% endif %}{% if page.publisher_url %}<a class="button" href="{{ page.publisher_url | escape }}">Publisher ↗</a>{% endif %}{% if page.preprint_url %}<a class="button" href="{{ page.preprint_url | escape }}">{% if page.earlier_preprint %}Earlier preprint{% else %}Preprint{% endif %} ↗</a>{% endif %}{% if page.event_url %}<a class="button" href="{{ page.event_url | escape }}">Conference ↗</a>{% endif %}{% if page.code_url %}<a class="button" href="{{ page.code_url | escape }}">Code ↗</a>{% endif %}</div>
   <div class="paper-body">
-    <section class="abstract-section"><h2>Abstract</h2><p>{{ page.abstract | escape }}</p></section>
+    {% if page.abstract %}<section class="abstract-section"><h2>Abstract</h2><p>{{ page.abstract | escape }}</p></section>{% elsif page.summary %}<section class="abstract-section"><h2>Research overview</h2><p>{{ page.summary | escape }}</p></section>{% endif %}
     {{ content }}
     <aside class="version-note"><h2>Version &amp; publication status</h2><p>{{ page.version_note | escape }}</p>{% if page.license %}<p class="license">{{ page.license | escape }}{% if page.license_url %} · <a href="{{ page.license_url | escape }}">License terms ↗</a>{% endif %}</p>{% endif %}</aside>
-    {% if page.bibtex %}<details class="citation"><summary>Citation · BibTeX</summary><pre><code>{{ page.bibtex | escape }}</code></pre></details>{% endif %}
+    {% if page.bibtex %}<details id="citation" class="citation"><summary>Citation · BibTeX</summary><pre><code>{{ page.bibtex | escape }}</code></pre></details>{% endif %}
   </div>
 </article>
-
