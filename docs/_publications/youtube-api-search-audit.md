@@ -6,6 +6,7 @@ year: 2026
 category: "conference"
 sort_date: "2026-09-22"
 venue: "IEEE CIC 2026"
+venue_key: cic
 publication_details: "Application Track"
 status: "accepted"
 status_label: "Accepted · Proceedings pending"
@@ -37,5 +38,4 @@ bibtex: |
     year = {2026}
   }
 ---
-
 

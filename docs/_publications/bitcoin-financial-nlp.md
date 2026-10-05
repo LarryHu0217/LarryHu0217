@@ -7,6 +7,7 @@ year: 2026
 category: "journal"
 sort_date: "2026-06-05"
 venue: "IEEE Access"
+venue_key: ieee_access
 publication_details: "14: 88558–88565"
 status: "published"
 status_label: "Published"
@@ -31,5 +32,4 @@ bibtex: |
     doi = {10.1109/ACCESS.2026.3700831}
   }
 ---
-
 

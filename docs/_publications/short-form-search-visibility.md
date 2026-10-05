@@ -6,6 +6,7 @@ year: 2026
 category: "conference"
 sort_date: "2026-07-15"
 venue: "IEEE ISAIA 2026"
+venue_key: isaia
 status: "accepted"
 status_label: "Accepted · Proceedings pending"
 accepted_date: "2026-07-15"
@@ -35,5 +36,4 @@ bibtex: |
     year = {2026}
   }
 ---
-
 

@@ -7,6 +7,7 @@ year: 2026
 category: "journal"
 sort_date: "2026-03-01"
 venue: "Decision Analytics Journal"
+venue_key: decision_analytics_journal
 publication_details: "18: 100685"
 status: "published"
 status_label: "Published"

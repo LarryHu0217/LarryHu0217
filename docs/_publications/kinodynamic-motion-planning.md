@@ -6,6 +6,7 @@ year: 2024
 category: "conference"
 sort_date: "2024-07-16"
 venue: "CONF-SEML 2024 · Applied and Computational Engineering"
+venue_key: conf_seml
 publication_details: "76(1): 65–71"
 status: "published"
 status_label: "Published"
@@ -35,5 +36,4 @@ bibtex: |
     doi = {10.54254/2755-2721/76/20240565}
   }
 ---
-
 

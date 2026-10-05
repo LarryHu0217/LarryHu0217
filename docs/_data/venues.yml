@@ -1,0 +1,149 @@
+# Venue-level facts, verified against the linked sources on 2026-10-05.
+# Keep each metric's system and dataset year explicit. No paper-level ranking is implied.
+finance_research_letters:
+  name: Finance Research Letters
+  url: https://www.sciencedirect.com/journal/finance-research-letters
+  method_note: "SJR Q1 refers to SCImago's 2025 Finance category, not a JCR or CAS classification. CiteScore and JIF are the publisher's current displayed values; the readable publisher listing does not state their metric year."
+  metrics:
+    - label: SJR
+      value: Q1
+      year: 2025
+      kind: quartile
+      detail: "SCImago Journal Rank quartile: Q1 in Finance, 2025."
+      source_label: SCImago · Finance Research Letters
+      source_url: https://www.scimagojr.com/journalsearch.php?q=15519&tip=sid
+    - label: CiteScore
+      value: "10.1"
+      year_label: publisher display
+      kind: citation
+      detail: "CiteScore 10.1 in the current publisher listing, checked October 5, 2026. Metric year is not stated in the readable listing."
+      source_label: Elsevier · Finance Research Letters
+      source_url: https://www.sciencedirect.com/journal/finance-research-letters
+    - label: JIF
+      value: "7.1"
+      year_label: publisher display
+      kind: citation
+      detail: "Journal Impact Factor 7.1 in the current publisher listing, checked October 5, 2026. Metric year is not stated in the readable listing."
+      source_label: Elsevier · Finance Research Letters
+      source_url: https://www.sciencedirect.com/journal/finance-research-letters
+    - label: SJR
+      value: "1.672"
+      year: 2025
+      badge: false
+      kind: citation
+      detail: "SCImago Journal Rank indicator, 2025."
+      source_label: SCImago · Finance Research Letters
+      source_url: https://www.scimagojr.com/journalsearch.php?q=15519&tip=sid
+
+ieee_access:
+  name: IEEE Access
+  url: https://ieeeaccess.ieee.org/
+  method_note: "SJR Q1 refers to SCImago's 2025 subject categories and is distinct from JCR quartiles. CiteScore and JIF are reported on IEEE Access's official bibliometrics page."
+  metrics:
+    - label: SJR
+      value: Q1
+      year: 2025
+      kind: quartile
+      detail: "Q1 in Computer Science (miscellaneous), Engineering (miscellaneous), and Materials Science (miscellaneous), 2025."
+      source_label: SCImago · IEEE Access
+      source_url: https://www.scimagojr.com/journalsearch.php?q=21100374601&tip=sid
+    - label: CiteScore
+      value: "9.3"
+      year: 2025
+      kind: citation
+      detail: "2025 CiteScore from Scopus citation data, as reported by IEEE Access."
+      source_label: IEEE Access · Bibliometrics
+      source_url: https://ieeeaccess.ieee.org/about/bibliometrics/
+    - label: JIF
+      value: "4.2"
+      year: 2025
+      kind: citation
+      detail: "Journal Impact Factor 4.2, labeled 2025 on IEEE Access's bibliometrics page."
+      source_label: IEEE Access · Bibliometrics
+      source_url: https://ieeeaccess.ieee.org/about/bibliometrics/
+    - label: SJR
+      value: "0.884"
+      year: 2025
+      badge: false
+      kind: citation
+      detail: "SCImago Journal Rank indicator, 2025."
+      source_label: SCImago · IEEE Access
+      source_url: https://www.scimagojr.com/journalsearch.php?q=21100374601&tip=sid
+
+decision_analytics_journal:
+  name: Decision Analytics Journal
+  url: https://www.sciencedirect.com/journal/decision-analytics-journal
+  method_note: "SJR Q1 refers to SCImago's 2025 subject categories, not a JCR or CAS classification. Only source-verified metrics are displayed."
+  metrics:
+    - label: SJR
+      value: Q1
+      year: 2025
+      kind: quartile
+      detail: "Q1 in Analysis, Applied Mathematics, Decision Sciences (miscellaneous), and Modeling and Simulation, 2025."
+      source_label: SCImago · Decision Analytics Journal
+      source_url: https://www.scimagojr.com/journalsearch.php?q=21101098756&tip=sid
+    - label: SJR
+      value: "1.686"
+      year: 2025
+      kind: citation
+      detail: "SCImago Journal Rank indicator, 2025."
+      source_label: SCImago · Decision Analytics Journal
+      source_url: https://www.scimagojr.com/journalsearch.php?q=21101098756&tip=sid
+
+ictai:
+  name: 38th IEEE International Conference on Tools with Artificial Intelligence (ICTAI 2026)
+  url: https://ictai.computer.org/2026/
+  method_note: "These labels classify the ICTAI venue. This entry is an accepted full paper with proceedings publication pending. CCF's classification applies to full/regular papers; other tracks have separate scope."
+  metrics:
+    - label: CCF
+      value: C
+      year: 2026
+      kind: conference
+      detail: "Artificial Intelligence category, C class, in CCF's seventh-edition directory (2026), page 59."
+      source_label: CCF · 2026 official directory (PDF)
+      source_url: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F
+    - label: ICORE
+      value: B
+      year: 2026
+      kind: conference
+      detail: "ICORE2026 conference ranking: B; field 4602, Artificial Intelligence."
+      source_label: ICORE · ICTAI ranking
+      source_url: https://portal.core.edu.au/conf-ranks/1251/
+
+cic:
+  name: 12th IEEE International Conference on Collaboration and Internet Computing (CIC 2026)
+  url: https://cic.ieee-cs.org/2026/
+  joint_event:
+    conferences:
+      - short_name: IEEE CIC
+        edition: 12th edition
+        name: Collaboration and Internet Computing
+        url: https://cic.ieee-cs.org/2026/
+      - short_name: IEEE CogMI
+        edition: 8th edition
+        name: Cognitive Machine Intelligence
+        url: https://cogmi.ieee-cs.org/2026/
+      - short_name: IEEE TPS
+        edition: 8th edition
+        name: Trust, Privacy and Security in Intelligent Systems, and Applications
+        url: https://tps.ieee-cs.org/2026/
+      - short_name: IEEE RISC
+        edition: 1st edition
+        name: Resilience and Integrated Security for Space and Critical Systems
+        url: https://risc.ieee-cs.org/2026/
+
+isaia:
+  name: IEEE International Conference on Intelligent Systems and Interdisciplinary Applications (ISAIA 2026)
+  url: https://www.ieeeisaia.com/
+
+icaisf:
+  name: 2nd International Conference on AI and Emerging Technology for Sustainable Future (ICAISF 2026)
+  url: https://www.icaisf.com/
+
+conf_seml:
+  name: 2nd International Conference on Software Engineering and Machine Learning (CONF-SEML 2024)
+  url: https://ace.ewapub.com/article/view/13741
+
+arxiv:
+  name: arXiv
+  url: https://arxiv.org/

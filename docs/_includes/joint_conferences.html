@@ -1,0 +1,11 @@
+<aside id="joint-conferences" class="joint-conferences" aria-labelledby="joint-conferences-title">
+  <p class="eyebrow">November 4–6, 2026 · Silicon Valley</p>
+  <h2 id="joint-conferences-title">Four IEEE conferences, one shared event</h2>
+  <p class="joint-intro">The 12th IEEE CIC is co-located with CogMI, TPS, and RISC, bringing together collaboration and internet computing, cognitive AI, trust and privacy, and security of critical systems.</p>
+  <ul class="joint-conference-grid">
+    {% for conference in include.venue.joint_event.conferences %}
+    <li><a href="{{ conference.url | escape }}"><strong>{{ conference.short_name | escape }}</strong><span>{{ conference.edition | escape }}</span></a><p>{{ conference.name | escape }}</p></li>
+    {% endfor %}
+  </ul>
+  <p class="joint-caption">This paper is accepted in <strong>IEEE CIC’s Application Track</strong>. <a href="{{ include.venue.url | escape }}">Official joint-event information ↗</a></p>
+</aside>

@@ -1,5 +1,7 @@
 # Liang Hu
 
+<img src="docs/assets/liang-hu.jpg" alt="Liang Hu" width="120" align="right">
+
 Columbia University computer science alumnus (B.S. 2022; M.S. 2023). I build backend infrastructure, observability,
 reliability, and data systems, with recent work across telemetry SDKs, MCP/agent tooling,
 data engines, API conformance, and CI.
@@ -12,21 +14,23 @@ data engines, API conformance, and CI.
 
 [Research homepage: publications, manuscripts, and talks](https://larryhu0217.github.io/LarryHu0217/)
 
-Research records updated October 5, 2026. Accepted conference papers are included before proceedings publication; submitted manuscripts and preprints have separate status labels.
+Research records updated October 5, 2026. Published work, accepted papers, and public preprints are listed with explicit status labels. Conference papers can appear before proceedings publication.
 
 ### Journal articles
 
-- **[Diversified but Crowded: Evidence from 13F Holdings](https://larryhu0217.github.io/LarryHu0217/publications/diversified-but-crowded/)** — Liang Hu and Yinru Shen. *Finance Research Letters*, accepted October 5, 2026. [Author manuscript PDF](https://larryhu0217.github.io/LarryHu0217/publications/diversified-but-crowded/accepted-manuscript.pdf).
-- **[AI-Enhanced Financial NLP for Bitcoin Return Variation Prediction: Timestamp-Aware Evidence From Trump’s Tweets](https://larryhu0217.github.io/LarryHu0217/publications/bitcoin-financial-nlp/)** — IEEE Access, 14: 88558–88565. 2026; **Published**. [DOI](https://doi.org/10.1109/ACCESS.2026.3700831).
-- **[A predictive analytics approach for forecasting global stock index returns using deep learning techniques](https://larryhu0217.github.io/LarryHu0217/publications/global-stock-index-returns/)** — Decision Analytics Journal, 18: 100685. 2026; **Published**. [DOI](https://doi.org/10.1016/j.dajour.2026.100685). [Earlier preprint (2024)](https://www.researchsquare.com/article/rs-4818027/v1).
+- **[Diversified but Crowded: Evidence from 13F Holdings](https://larryhu0217.github.io/LarryHu0217/publications/diversified-but-crowded/)** — Liang Hu and Yinru Shen. *Finance Research Letters*, **Accepted** October 5, 2026. **[SJR Q1 · 2025](https://www.scimagojr.com/journalsearch.php?q=15519&tip=sid)** · [CiteScore **10.1** / JIF **7.1** · publisher display](https://www.sciencedirect.com/journal/finance-research-letters). [Author manuscript PDF](https://larryhu0217.github.io/LarryHu0217/publications/diversified-but-crowded/accepted-manuscript.pdf).
+- **[AI-Enhanced Financial NLP for Bitcoin Return Variation Prediction: Timestamp-Aware Evidence From Trump’s Tweets](https://larryhu0217.github.io/LarryHu0217/publications/bitcoin-financial-nlp/)** — Liang Hu and Yinru Shen. *IEEE Access*, 14: 88558–88565. 2026; **Published**. **[SJR Q1 · 2025](https://www.scimagojr.com/journalsearch.php?q=21100374601&tip=sid)** · [CiteScore **9.3** / JIF **4.2** · 2025](https://ieeeaccess.ieee.org/about/bibliometrics/). [DOI](https://doi.org/10.1109/ACCESS.2026.3700831).
+- **[A predictive analytics approach for forecasting global stock index returns using deep learning techniques](https://larryhu0217.github.io/LarryHu0217/publications/global-stock-index-returns/)** — Liang Hu and Yinru Shen. *Decision Analytics Journal*, 18: 100685. 2026; **Published**. **[SJR Q1 · 2025](https://www.scimagojr.com/journalsearch.php?q=21101098756&tip=sid)**. [DOI](https://doi.org/10.1016/j.dajour.2026.100685). [Earlier preprint (2024)](https://www.researchsquare.com/article/rs-4818027/v1).
+
+SJR quartiles use SCImago subject categories and are distinct from JCR quartiles. Metrics above describe the venues; “publisher display” means the readable publisher listing does not state the metric year. Sources checked October 5, 2026.
 
 ### Conference papers
 
-- **[Auditing Search Before Content Verification: A Manifest-Gated Study of YouTube API Availability and Stability](https://larryhu0217.github.io/LarryHu0217/publications/youtube-api-search-audit/)** — IEEE CIC 2026, Application Track. 2026; **Accepted · Proceedings pending**. Conference: November 4–6, 2026; Milpitas / San Jose, California, USA.
-- **[Bridge Alerts for Institutional Portfolio Similarity Networks: An Explainable Monitoring Framework](https://larryhu0217.github.io/LarryHu0217/publications/portfolio-network-bridge-alerts/)** — IEEE ICTAI 2026, Full paper. 2026; **Accepted · Proceedings pending**. Conference: November 2–4, 2026; Boca Raton, Florida, USA.
-- **[An Explainable AI Audit of Search Visibility Signals in Shorts-Like Short-Form Videos](https://larryhu0217.github.io/LarryHu0217/publications/short-form-search-visibility/)** — IEEE ISAIA 2026. 2026; **Accepted · Proceedings pending**. Conference: October 9–10, 2026; Montclair, New Jersey, USA.
-- **[AI Decision Support for Sector-Conditioned Portfolio Similarity Monitoring in Financial Services](https://larryhu0217.github.io/LarryHu0217/publications/sector-conditioned-portfolio-monitoring/)** — ICAISF 2026. 2026; **Accepted · Proceedings pending**. Conference: July 24–25, 2026; Catania, Italy.
-- **[Robot learning-enhanced tree-based algorithms for kinodynamic motion planning: A comparative analysis](https://larryhu0217.github.io/LarryHu0217/publications/kinodynamic-motion-planning/)** — CONF-SEML 2024 · Applied and Computational Engineering, 76(1): 65–71. 2024; **Published**. [DOI](https://doi.org/10.54254/2755-2721/76/20240565).
+- **[Auditing Search Before Content Verification: A Manifest-Gated Study of YouTube API Availability and Stability](https://larryhu0217.github.io/LarryHu0217/publications/youtube-api-search-audit/)** — Liang Hu. **12th IEEE International Conference on Collaboration and Internet Computing (CIC 2026)**, Application Track; **Accepted · Proceedings pending**. November 4–6, 2026; Milpitas / San Jose, California, USA. **[Joint IEEE conference event: CIC · CogMI · TPS · RISC](https://cic.ieee-cs.org/2026/)**, covering internet collaboration, cognitive AI, trust and privacy, and security of critical systems.
+- **[Bridge Alerts for Institutional Portfolio Similarity Networks: An Explainable Monitoring Framework](https://larryhu0217.github.io/LarryHu0217/publications/portfolio-network-bridge-alerts/)** — Liang Hu and Yinru Shen. **38th IEEE International Conference on Tools with Artificial Intelligence (ICTAI 2026)**, Full paper; **Accepted · Proceedings pending**. **[CCF C · 2026](https://www.ccf.org.cn/Academic_Evaluation/AI/)** · **[ICORE B · 2026](https://portal.core.edu.au/conf-ranks/1251/)**. November 2–4, 2026; Boca Raton, Florida, USA.
+- **[An Explainable AI Audit of Search Visibility Signals in Shorts-Like Short-Form Videos](https://larryhu0217.github.io/LarryHu0217/publications/short-form-search-visibility/)** — Liang Hu. **IEEE International Conference on Intelligent Systems and Interdisciplinary Applications (ISAIA 2026)**; **Accepted · Proceedings pending**. Conference: October 9–10, 2026; Montclair, New Jersey, USA.
+- **[AI Decision Support for Sector-Conditioned Portfolio Similarity Monitoring in Financial Services](https://larryhu0217.github.io/LarryHu0217/publications/sector-conditioned-portfolio-monitoring/)** — Liang Hu. **2nd International Conference on AI and Emerging Technology for Sustainable Future (ICAISF 2026)**; **Accepted · Proceedings pending**. Conference: July 24–25, 2026; Catania, Italy.
+- **[Robot learning-enhanced tree-based algorithms for kinodynamic motion planning: A comparative analysis](https://larryhu0217.github.io/LarryHu0217/publications/kinodynamic-motion-planning/)** — Liang Hu. **2nd International Conference on Software Engineering and Machine Learning (CONF-SEML 2024)** · *Applied and Computational Engineering*, 76(1): 65–71. 2024; **Published**. [DOI](https://doi.org/10.54254/2755-2721/76/20240565).
 
 ### Preprints
 

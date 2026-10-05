@@ -1,0 +1,7 @@
+{% if include.venue.metrics %}
+<div class="venue-badges" aria-label="Venue rankings and metrics">
+  {% for metric in include.venue.metrics %}{% unless metric.badge == false %}
+  <a class="venue-badge venue-badge-{{ metric.kind | escape }}" href="{{ metric.source_url | escape }}" title="{{ metric.detail | escape }} · {{ metric.source_label | escape }} · Checked October 5, 2026"><span>{{ metric.label | escape }}</span><strong>{{ metric.value | escape }}</strong><span class="metric-year">· {{ metric.year | default: metric.year_label | escape }}</span></a>
+  {% endunless %}{% endfor %}
+</div>
+{% endif %}

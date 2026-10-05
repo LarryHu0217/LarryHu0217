@@ -12,6 +12,7 @@ year: 2025
 category: "preprint"
 sort_date: "2025-09-17"
 venue: "arXiv"
+venue_key: arxiv
 publication_details: "2509.13724"
 status: "preprint"
 status_label: "Preprint"
@@ -40,5 +41,4 @@ bibtex: |
     doi = {10.48550/arXiv.2509.13724}
   }
 ---
-
 

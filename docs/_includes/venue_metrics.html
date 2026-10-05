@@ -1,0 +1,12 @@
+{% if include.venue.metrics %}
+<section id="venue-metrics" class="venue-metrics-section" aria-labelledby="venue-metrics-title">
+  <h2 id="venue-metrics-title">Venue rankings &amp; metrics</h2>
+  <p class="metrics-intro">{{ include.venue.name | escape }} · Sources checked October 5, 2026</p>
+  <dl class="metric-details">
+    {% for metric in include.venue.metrics %}
+    <div class="metric-detail"><dt><span>{{ metric.label | escape }}</span><strong>{{ metric.value | escape }}</strong><span class="metric-dataset">{{ metric.year | default: metric.year_label | escape }}</span></dt><dd><p>{{ metric.detail | escape }}</p><a href="{{ metric.source_url | escape }}">{{ metric.source_label | escape }} ↗</a></dd></div>
+    {% endfor %}
+  </dl>
+  <p class="metric-method">{{ include.venue.method_note | escape }}</p>
+</section>
+{% endif %}

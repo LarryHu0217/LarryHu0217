@@ -6,6 +6,7 @@ year: 2026
 category: "conference"
 sort_date: "2026-07-01"
 venue: "ICAISF 2026"
+venue_key: icaisf
 status: "accepted"
 status_label: "Accepted · Proceedings pending"
 accepted_date: "2026-07-01"
@@ -35,5 +36,4 @@ bibtex: |
     year = {2026}
   }
 ---
-
 

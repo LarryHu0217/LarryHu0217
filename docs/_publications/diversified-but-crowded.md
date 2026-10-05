@@ -7,6 +7,7 @@ year: 2026
 category: journal
 sort_date: "2026-10-05"
 venue: Finance Research Letters
+venue_key: finance_research_letters
 status: accepted
 status_label: Accepted
 accepted_date: "2026-10-05"
