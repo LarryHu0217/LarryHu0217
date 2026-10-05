@@ -8,6 +8,12 @@ data engines, API conformance, and CI.
 [Google Scholar](https://scholar.google.com/citations?user=2ddJaI4AAAAJ) |
 [ORCID](https://orcid.org/0009-0005-6930-236X)
 
+## Research & publications
+
+[Publications & author manuscripts](https://larryhu0217.github.io/LarryHu0217/)
+
+- **Diversified but Crowded: Evidence from 13F Holdings** — Liang Hu and Yinru Shen. *Finance Research Letters*, accepted October 5, 2026. [Paper](https://larryhu0217.github.io/LarryHu0217/publications/diversified-but-crowded/) · [Author manuscript PDF](https://larryhu0217.github.io/LarryHu0217/publications/diversified-but-crowded/accepted-manuscript.pdf).
+
 ## Open-source highlights
 
 53 external pull requests merged since July 2026.

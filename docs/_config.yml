@@ -1,0 +1,21 @@
+title: Liang Hu
+description: Research publications and author manuscripts by Liang Hu.
+url: https://larryhu0217.github.io
+baseurl: /LarryHu0217
+lang: en
+markdown: kramdown
+theme: null
+collections:
+  publications:
+    output: true
+    permalink: /publications/:name/
+defaults:
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: publication
+exclude:
+  - Gemfile
+  - Gemfile.lock
+

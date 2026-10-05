@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title | escape }} | {% endif %}Liang Hu</title>
+  <meta name="description" content="{{ page.summary | default: site.description | escape }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}">
+  <script defer src="{{ '/assets/site.js' | relative_url }}"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="Liang Hu, publications home"><span class="monogram" aria-hidden="true">LH</span><span>Liang Hu<span class="wordmark-subtitle">Research &amp; publications</span></span></a>
+      <nav aria-label="Main navigation">
+        <a href="{{ '/' | relative_url }}#publications">Publications</a>
+        <a href="https://scholar.google.com/citations?user=2ddJaI4AAAAJ">Scholar <span aria-hidden="true">↗</span></a>
+        <a href="https://orcid.org/0009-0005-6930-236X">ORCID <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+    <main id="main">{{ content }}</main>
+    <footer class="site-footer"><span>© {{ site.time | date: '%Y' }} Liang Hu</span><span>Author manuscripts &amp; publication records</span><a href="https://github.com/LarryHu0217">GitHub ↗</a></footer>
+  </div>
+</body>
+</html>
+
