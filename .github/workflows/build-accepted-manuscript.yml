@@ -1,0 +1,41 @@
+name: Build accepted manuscript PDF
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'docs/pdf_parts/**'
+      - '.github/workflows/build-accepted-manuscript.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check parts and build PDF
+        id: build
+        shell: bash
+        run: |
+          set -euo pipefail
+          count=$(find docs/pdf_parts -maxdepth 1 -name 'part-*.b64' 2>/dev/null | wc -l | tr -d ' ')
+          if [ "$count" != "14" ]; then
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+            echo "Waiting for all 14 parts; found $count."
+            exit 0
+          fi
+          cat docs/pdf_parts/part-*.b64 | tr -d '\n\r' | base64 -d > docs/Diversified_but_Crowded_Accepted_Manuscript.pdf
+          echo "1a659e48c25d7b89a91dd8fc3de079f823aaf6bf7c6681229fe7fa547e27c331  docs/Diversified_but_Crowded_Accepted_Manuscript.pdf" | sha256sum -c -
+          rm -rf docs/pdf_parts
+          echo "ready=true" >> "$GITHUB_OUTPUT"
+      - name: Commit reconstructed PDF
+        if: steps.build.outputs.ready == 'true'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs
+          git commit -m "Add accepted FRL manuscript PDF"
+          git push
