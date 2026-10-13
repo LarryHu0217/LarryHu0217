@@ -90,6 +90,10 @@ decision_analytics_journal:
       source_label: SCImago · Decision Analytics Journal
       source_url: https://www.scimagojr.com/journalsearch.php?q=21101098756&tip=sid
 
+machine_learning_with_applications:
+  name: Machine Learning with Applications
+  url: https://www.sciencedirect.com/journal/machine-learning-with-applications
+
 ictai:
   name: 38th IEEE International Conference on Tools with Artificial Intelligence (ICTAI 2026)
   url: https://ictai.computer.org/2026/
